@@ -19,7 +19,7 @@ subreddit = reddit.subreddit('writing')
 already_done = []
 
 for submission in subreddit.new(limit=5):
-	if re.search("writing", submission.title, re.IGNORECASE):
+	if re.search("Weekly Critique Thread", submission.title, re.IGNORECASE):
 		print("Title: ", submission.title)
 		print("Text: ", submission.selftext)
 		print("Score: ", submission.score)
