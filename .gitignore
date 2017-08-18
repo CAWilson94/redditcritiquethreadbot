@@ -1,3 +1,5 @@
 # ini file
 
 *.ini
+/constants.py
+__pycache__/
